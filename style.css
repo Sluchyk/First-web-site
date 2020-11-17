@@ -1,0 +1,36 @@
+body{
+  color:navy;
+  background-color:white;
+  font-family: monospace;
+}
+strong{color:lime;}
+strong{color:grey;}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-color: blue;
+  border-width:6px;
+  height:15px;
+  width:10%;
+}
+h1{color: #0f4c75;}
+h3{color: #0f4c75;}
+#dotted{
+border-top-style:dotted;
+border-color: green;
+}
+.table{
+  background-color:purple;
+  background-repeat:round;
+  border-style:dotted;
+  color:lime;
+  border-color:yellow;
+  height:10px;
+}
+h2{
+  font-style: italic;
+}
+
+#decor{
+  text-decoration:red underline;
+}
