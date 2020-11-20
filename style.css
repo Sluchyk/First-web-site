@@ -3,8 +3,8 @@ body{
   background-color:white;
   font-family: monospace;
 }
-strong{color:lime;}
 strong{color:grey;}
+strong{color:lime;}
 hr{
   border-style:none;
   border-top-style:dotted;
@@ -33,4 +33,8 @@ h2{
 
 #decor{
   text-decoration:red underline;
+}
+h2:hover{
+  cursor:pointer;
+  color:red;
 }
