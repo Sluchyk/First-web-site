@@ -2,17 +2,13 @@ body{
 
   color:navy;
   background-color:lavender;
-  font-family: monospace;;
+  font-family: monospace;
+box-sizing: border-box;
 }
-@media (max-width:1000px) {
-  body{
-     margin:0 10px;
-  }
 
-}
 nav{
   display:flex;
-  justify-content: space-around;
+  justify-content:space-around;
   min-height: 100px;
 }
 article{
@@ -36,7 +32,7 @@ section{
   min-height:300px;
   width: 100%;
   align-items:flex-start;
-  justify-content:space-around;
+  justify-content:center;
 
 }
 div{
@@ -82,7 +78,7 @@ h2:hover{
   color:red;
 }
 footer{
-  min-height:200px;
+  height:200px;
   width: 100%;
   background-color: black;
   text-align: center;
