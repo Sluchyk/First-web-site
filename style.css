@@ -1,24 +1,67 @@
 body{
+
   color:navy;
-  background-color:white;
-  font-family: monospace;
+  background-color:lavender;
+  font-family: monospace;;
 }
-strong{color:grey;}
-strong{color:lime;}
-hr{
-  border-style:none;
-  border-top-style:dotted;
-  border-color: blue;
-  border-width:6px;
-  height:15px;
-  width:10%;
+@media (max-width:1000px) {
+  body{
+     margin:0 40px;
+  }
+
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  min-height: 100px;
+}
+article{
+  display:flex;
+
+  min-height:200px;
+  width:100%;
+  background-color:lightcyan;
+  flex-direction: column;
+
+}
+#psize{
+  display: flex;
+height: 100px;
+width:100%;
+
+}
+section{
+  display:inline-flex;
+  flex-grow:grow;
+  min-height:300px;
+  width: 100%;
+  align-items:flex-start;
+  justify-content:space-around;
+
+}
+div{
+
+min-height: 200px;
+width: 400px;
+margin:10px;
+  background-color:#ffffe0;
+
+}
+#div{
+  display: flex;
+  width: 100%;
+  background-color:lavender;
+  justify-content: center;
+}
+#h1{
+  padding:10px;
+  height:75px;
+  text-align: center;
+
 }
 h1{color: #0f4c75;}
 h3{color: #0f4c75;}
-#dotted{
-border-top-style:dotted;
-border-color: green;
-}
+
 .table{
   background-color:purple;
   background-repeat:round;
@@ -37,4 +80,10 @@ h2{
 h2:hover{
   cursor:pointer;
   color:red;
+}
+footer{
+  min-height:200px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
 }
