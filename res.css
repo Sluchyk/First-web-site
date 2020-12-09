@@ -1,14 +1,10 @@
-@media (max-width:500px){
-  body{margin:0 10px;}
 
-}
 #flex-container{
   display: inline;
   position: absolute;
   height: 75px;
   padding: 40px;
-right: 40px;
-}
+right: 40px;}
 
 #flex-container1{
   display:flex;
