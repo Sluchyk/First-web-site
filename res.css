@@ -1,0 +1,59 @@
+
+#flex-container{
+  display: inline;
+  position: absolute;
+  height: 75px;
+  padding: 40px;
+right: 40px;
+}
+
+#flex-container1{
+  display:flex;
+  background-color:lightskyblue;
+  height:400px;
+background-image:url(https://cdn.pixabay.com/photo/2020/11/17/05/19/face-mask-5751427__340.jpg);
+  background-position: center;
+  font-size: 60px;
+    align-items:flex-start;
+    justify-content: center;
+
+
+}
+#flex-container2{
+  display:flex;
+  margin:75px 100px 75px 100px;
+  min-height:500px;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  text-align: center;
+  font-family: URW Chancery L, cursive;
+
+}
+#flex-container3{
+  display:flex;
+  background-color:black;
+  height:100px;
+  color:white;
+justify-content: center;
+
+}
+
+#prefooter{
+  dispay:flex;
+  background-color:silver;
+  height:40px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+#p{
+ margin:0 0 75px 0;
+ padding: 50px;
+
+  height:200px;
+  width:100%;
+#orangebox{
+
+  height:400px;
+  width:48%;
+
+}
