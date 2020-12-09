@@ -1,4 +1,7 @@
+@media (max-width:500px){
+  body{margin:0 10px;}
 
+}
 #flex-container{
   display: inline;
   position: absolute;
